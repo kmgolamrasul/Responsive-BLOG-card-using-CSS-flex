@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: figtree;
+}
+
+main {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+footer.attribution {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    max-width: 320px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid black;
+    box-shadow: 7px 7px;
+}
+
+.illustration {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.learning {
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    margin-top: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.date{
+    font-size: 14px
+}
+
+.description {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+.active:link, .active:visited { 
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.active:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+
+.greg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 14px;
+}
+
+.greg h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
